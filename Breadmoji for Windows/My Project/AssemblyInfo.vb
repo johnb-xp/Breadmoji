@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Breadmoji for Windows")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyDescription("Copies bread emoticons to the clipboard.")>
+<Assembly: AssemblyCompany("John Bilkey")>
 <Assembly: AssemblyProduct("Breadmoji for Windows")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyCopyright("Made in 2020 by John Bilkey")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

@@ -1,19 +1,29 @@
-﻿Public Class Breadmoji
+﻿'PROJECT Breadmoji for Windows
+'ENTITY: Breadmoji
+'AUTHOR: johnbilkey@protonmail.com
+'DATE : May 29, 2020
+'PROVIDES: Main window for Breadmoji program. This program copies a selected bread image to the clipboard.
+
+
+Public Class Breadmoji
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Notify Icon is displayed when program loads
+        NotifyIcon1.Visible = True
+        Me.Show()
 
-    End Sub
-
-    ' Add Notify Icon
-    Private Sub Form1_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
-        If Me.WindowState = FormWindowState.Minimized Then
-            NotifyIcon1.Visible = True
-            Me.Hide()
-            NotifyIcon1.BalloonTipText = "Breadmoji is minimized."
-            NotifyIcon1.ShowBalloonTip(500)
+        'Restrict application to a single instance
+        Dim mut As System.Threading.Mutex =
+        New System.Threading.Mutex(False, Application.ProductName)
+        Dim running As Boolean = Not mut.WaitOne(0, False)
+        If running Then
+            Application.ExitThread()
+            Return
         End If
     End Sub
 
     Private Sub ListView1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles ListView1.MouseDown
+        ' This code segment chooses the selected bread icon from the imageList
         Dim objDrawingPoint As Drawing.Point
         Dim objListViewItem As ListViewItem
 
@@ -28,21 +38,19 @@
 
             If Not IsNothing(objListViewItem) Then
                 Clipboard.SetImage(ImageList1.Images(objListViewItem.ImageIndex))
+                ' Copy image to clipboard
             End If
         End If
     End Sub
 
-
-
     Private Sub NotifyIcon1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.Click
-        Me.Show()
+        'Restores window on left click
         Me.WindowState = FormWindowState.Normal
-        NotifyIcon1.Visible = False
     End Sub
 
-    Private Sub NotifyIcon1_RightClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
-        NotifyIcon1.BalloonTipText = "Breadmoji will close."
-        NotifyIcon1.ShowBalloonTip(500)
-        Me.Close()
+    Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
+        'Minimizes window on a double click
+        Me.WindowState = FormWindowState.Minimized
     End Sub
+
 End Class
