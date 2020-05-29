@@ -1,0 +1,11 @@
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\bin\Debug\Breadmoji for Windows.exe
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\bin\Debug\Breadmoji for Windows.pdb
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\bin\Debug\Breadmoji for Windows.xml
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji for Windows.vbprojAssemblyReference.cache
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji_for_Windows.Breadmoji.resources
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji_for_Windows.Resources.resources
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji for Windows.vbproj.GenerateResource.cache
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji for Windows.exe
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji for Windows.xml
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\obj\Debug\Breadmoji for Windows.pdb
+E:\Projects\Bread\Breadmoji for Windows\Breadmoji for Windows\bin\Debug\Breadmoji for Windows.exe.config
