@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Breadmoji for Windows", "Breadmoji for Windows.vbproj", "{668FFFFC-97AB-4610-9FDA-F3AE826889D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{668FFFFC-97AB-4610-9FDA-F3AE826889D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668FFFFC-97AB-4610-9FDA-F3AE826889D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668FFFFC-97AB-4610-9FDA-F3AE826889D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668FFFFC-97AB-4610-9FDA-F3AE826889D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3718A5CC-0239-44AA-AADF-2CFD66E8D9E9}
+	EndGlobalSection
+EndGlobal
