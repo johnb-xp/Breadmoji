@@ -10,6 +10,11 @@ Public Class Breadmoji
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Notify Icon is displayed when program loads
         NotifyIcon1.Visible = True
+
+        'Don't show program in taskbar
+        ShowInTaskbar = False
+
+        'Show window
         Me.Show()
 
         'Restrict application to a single instance
@@ -44,13 +49,16 @@ Public Class Breadmoji
     End Sub
 
     Private Sub NotifyIcon1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.Click
-        'Restores window on left click
-        Me.WindowState = FormWindowState.Normal
-    End Sub
-
-    Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
-        'Minimizes window on a double click
-        Me.WindowState = FormWindowState.Minimized
+        If Me.WindowState = FormWindowState.Normal Then
+            'Minimizes window
+            Me.WindowState = FormWindowState.Minimized
+            Me.Hide()
+        Else
+            'Restores window
+            Me.Show()
+            Me.WindowState = FormWindowState.Normal
+        End If
+        NotifyIcon1.Visible = True
     End Sub
 
 End Class
