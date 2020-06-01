@@ -14,8 +14,13 @@ Public Class Breadmoji
         'Don't show program in taskbar
         ShowInTaskbar = False
 
-        'Show window
-        Me.Show()
+        ' Get Active Screen cursor is on, then go to bottom right corner
+        Dim scr As Screen = Screen.FromPoint(Cursor.Position)
+        Me.Location = New Point(scr.WorkingArea.Right - Me.Width, scr.WorkingArea.Bottom - Me.Height)
+
+        'Hide window - useful when running on startup
+        Me.WindowState = FormWindowState.Minimized
+        Me.Hide()
 
         'Restrict application to a single instance
         Dim mut As System.Threading.Mutex =
