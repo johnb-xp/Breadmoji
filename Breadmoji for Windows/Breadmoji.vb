@@ -30,6 +30,9 @@ Public Class Breadmoji
             Application.ExitThread()
             Return
         End If
+
+        CheckUpdate()
+
     End Sub
 
     Private Sub ListView1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles ListView1.MouseDown
@@ -66,4 +69,21 @@ Public Class Breadmoji
         NotifyIcon1.Visible = True
     End Sub
 
+    Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) 
+        UpdateWindow.show()
+    End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        About.show
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        CheckUpdate()
+    End Sub
+
+    Private Sub CheckUpdate()
+        If UpdateWindow.UpdateCheck() Then
+            UpdateToolStripMenuItem.Visible = True
+        End If
+    End Sub
 End Class
