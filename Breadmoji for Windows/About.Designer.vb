@@ -64,11 +64,14 @@ Partial Class About
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(317, 39)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Written by John Bilkey" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Last updated June 1, 2020"
+        Me.Label2.Text = "Written by John Bilkey" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Last updated June 2, 2020"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
         '
+        Me.Label3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(0, 173)
         Me.Label3.Name = "Label3"

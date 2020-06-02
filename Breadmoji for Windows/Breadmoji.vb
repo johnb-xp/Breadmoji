@@ -86,4 +86,8 @@ Public Class Breadmoji
             UpdateToolStripMenuItem.Visible = True
         End If
     End Sub
+
+    Private Sub UpdateToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
+        UpdateWindow.Show()
+    End Sub
 End Class
