@@ -77,13 +77,13 @@ Partial Class About
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(317, 24)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "1.0.0.2"
+        Me.Label3.Text = "1.0.0.3"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'About
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(318, 246)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
