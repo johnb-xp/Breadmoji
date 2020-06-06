@@ -69,12 +69,12 @@ Public Class Breadmoji
         NotifyIcon1.Visible = True
     End Sub
 
-    Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) 
-        UpdateWindow.show()
+    Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs)
+        UpdateWindow.Show()
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
-        About.show
+        About.Show()
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
