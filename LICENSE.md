@@ -1,5 +1,5 @@
-Program Source Code: GNU General Public License v3.0
-Images: CC BY 4.0 
+Program Source Code: GNU General Public License v3.0 <br>
+Images: CC BY 4.0 <br>
 
 <hr>
 
