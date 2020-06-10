@@ -7,4 +7,5 @@ These are the bread emojis created for the MSOE Discord server by John Bilkey.
 <br>
 These graphics are largely based on Twemoji 12.<br>
 https://github.com/twitter/twemoji<br>
-<br>Available under CC BY 4.0 license.
+<br>Images are available under CC BY 4.0 license.
+<br>Software is available under GNU General Public License v3.0
