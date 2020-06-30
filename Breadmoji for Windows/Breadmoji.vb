@@ -90,4 +90,8 @@ Public Class Breadmoji
     Private Sub UpdateToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
         UpdateWindow.Show()
     End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+
+    End Sub
 End Class
