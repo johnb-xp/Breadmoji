@@ -64,7 +64,7 @@ Partial Class About
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(317, 39)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Written by John Bilkey" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Last updated June 30, 2020"
+        Me.Label2.Text = "Written by John Bilkey" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Last updated July 27, 2020"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
@@ -77,7 +77,7 @@ Partial Class About
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(317, 24)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "1.0.0.4"
+        Me.Label3.Text = "1.0.0.5"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'About
