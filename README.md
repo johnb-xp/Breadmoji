@@ -1,8 +1,13 @@
+<img src="https://github.com/johnb-xp/Breadmoji/blob/master/screenshot.PNG">
+<br>
 <b>Let's 👏 get 👏 this 👏 bread</b>
-
+<br>
 These are the bread emojis created for the MSOE Discord server by John Bilkey.
-
-<i>You can modify, and share them to your heart's content, preferably with attribution if possible.</i>
+<br>
+This repo also contains Breadmoji for Windows, which is a Windows program that allows users to quickly and easily paste Breadmojis in Discord chats.
+<br>
+<br>
+<i>You can modify and share them to your heart's content, preferably with attribution if possible.</i>
 <br>
 <br>
 These graphics are largely based on Twemoji 12.<br>
