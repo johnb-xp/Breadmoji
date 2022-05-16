@@ -9,7 +9,7 @@ Public Class UpdateWindow
     Public Function UpdateCheck()
         Try
             Dim client As WebClient = New WebClient()
-            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.cf/breadmoji/latest.txt"))
+            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.com/breadmoji/latest.txt"))
             latest = reader.ReadLine()
             ''Checks for Updates based on the version stated in the "About" program
             If latest.Equals(About.GetVersion()) Then
@@ -31,4 +31,7 @@ Public Class UpdateWindow
         Process.Start(webAddress)
     End Sub
 
+    Private Sub UpdateWindow_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
