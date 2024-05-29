@@ -16,3 +16,4 @@ These graphics are largely based on Twemoji 12.<br>
 https://github.com/twitter/twemoji<br>
 <br>Images are available under CC BY 4.0 license.
 <br>Software is available under GNU General Public License v3.0
+This program is written using Windows Forms and .Net 2.0
