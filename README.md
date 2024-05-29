@@ -9,6 +9,8 @@ This repo also contains Breadmoji for Windows, which is a Windows program that a
 <br>
 <i>You can modify and share them to your heart's content, preferably with attribution if possible.</i>
 <br>
+<b>NOTE: This program may now be run on Windows 95 using itsmattkc's dotnet9x, https://github.com/itsmattkc/dotnet9x</b>
+<br>
 <br>
 These graphics are largely based on Twemoji 12.<br>
 https://github.com/twitter/twemoji<br>
